@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+
+}
+
+.prvih1, .drugi1{
+    font-size: 12px;
+}
+
+.prvih1 {
+    color: blue;
+}
+
+.drugih1 {
+    color: yellow;
+}
+/* 
+h1:nth-child(2) {
+color: yellow;
+} 
+
+ctrl-d oznaci vise reci
+*/

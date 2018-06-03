@@ -1,0 +1,54 @@
+.main-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.unique {
+    height: 400px;
+    width: 400px;
+    font-size: 18px;
+    border: 1px solid red;
+    padding: 4px;
+    margin: 8px;
+    display: inline-block;
+    position: relative;
+}
+.container-text {
+    overflow-y: scroll;
+    width: 100%;
+    height: 10%;
+    word-break: break-word;
+}
+
+.container-image {
+    max-width: 400px;
+    max-height: 400px;
+}
+.datum {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.naslov {
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    background-color:rgba(225, 234, 226, 0.3);
+}
+.naslov:hover {
+     background-color:rgba(225, 234, 226, 0.6);
+     transition: all 0.7 linear;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: blue;
+}
